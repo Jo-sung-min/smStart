@@ -23,6 +23,7 @@ public class HomeController {
         List<UserInfo> test =  userInfoService.getAllUsers();
 
         log.info("호출 !!!!!!!!!!!!{}!",test);
+        log.info("호출 !!!!!!!!!!!!{}!",test);
         return "home.html";
 
     }
