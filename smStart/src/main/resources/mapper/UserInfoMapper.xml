@@ -4,7 +4,7 @@
 <mapper namespace="com.example.smStart.mapper.UserInfoMapper">
 
     <select id="findAll" resultType="com.example.smStart.domain.UserInfo">
-        SELECT * FROM users2
+        SELECT * FROM tb_sso_user_sync
     </select>
 
 </mapper>
